@@ -28,7 +28,7 @@ int main(void) {
 
 	printf("%d %c %d = \n",num1 , Operation, num2); //Print a integer then a character then an integer, the first int will be num1 the second will be Operation and the third will be num2
 	sum = math(num1,num2,Operation);
-	printf("%d, sum \n");
+	printf("%d \n", sum );
 
 	/*Not sure if you can do this or not
 	 * printf("%d\n", math(num1,num2,Operation) //print the returned value (That is an integer) of the math function when it is passed the values of num1, num2, and Operation
