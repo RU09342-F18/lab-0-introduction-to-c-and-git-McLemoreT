@@ -36,10 +36,10 @@ int main(void) {
 }
 
 
-int math( int num1, int num2, char Operator ) { //Function takes two integers and a character that will be the operator
+int math( int num1, int num2, char Operation ) { //Function takes two integers and a character that will be the operator
 
 
-    switch(Operator) {
+    switch(Operation) {
           case '+' : //Addition
              return num1 + num2;
              break;
