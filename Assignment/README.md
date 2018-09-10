@@ -1,15 +1,15 @@
 +--------------------------------+
 |                                |
-|	General Use			line: 15 |
-|		Operations		line: 18 |
+| General Use		line: 15 |
+|	Operations	line: 18 |
 |                                |
-|	math.c/main			line: 33 |
-|		num1			line: 36 |
-|		num2			line: 38 |
-|		Operation		line: 39 |
+| math.c/main		line: 33 |
+|	num1		line: 36 |
+|	num2		line: 38 |
+|	Operation	line: 39 |
 |                                |
-|	math.c/math			line: 40 |
-|		switch			line: 41 |
+| math.c/math		line: 40 |
+|	switch		line: 41 |
 |                                |
 +--------------------------------+
 General Use:
