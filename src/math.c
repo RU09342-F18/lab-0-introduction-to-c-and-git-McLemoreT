@@ -10,10 +10,19 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
-	return EXIT_SUCCESS;
+    int num1; //First number
+    int num2; //Second number
+    char Operation; //Operation to be performed
+	printf("Please input first number"); //Print to console this text
+	scanf("%d , &num1"); //'scan for', "%d" means the value will be a integer, &num1 means store the value in integer num1
+	printf("Please input the operation");
+	scanf("%c , &Operation"); //'scan for', "%c" means the value will be a character, &Operation means store the value in integer Operation
+	printf("Please input second number");
+	scanf("%d , &num2"); //'scan for', "%d" means the value will be a integer, &num2 means store the value in integer num2
+	printf("%d %c %d = \n",num1 , Operation, num2) //Print a integer then a character then an integer, the first int will be num1 the second will be Operation and the third will be num2
 }
 
 
