@@ -55,7 +55,7 @@ int math( int num1, int num2, char Operation ) { //Function takes two integers a
              return num1 * num2;
              break;
           default :
-             printf("Invalid operation given" );
+             printf("Invalid operation given \n" );
              return NULL;
              break
        }
