@@ -54,8 +54,14 @@ int math( int num1, int num2, char Operation ) { //Function takes two integers a
           case 'X' :
              return num1 * num2;
              break;
-          case '%' //Modulus
+          case '%' : //Modulus
               return num1 % num2;
+              break;
+          case '<' ://bit shift left by the amount specified by 'num2'
+              return num1 << num2;
+              break
+          case '>' :
+              return num1 >> num2;
               break;
           default :
              printf("Invalid operation given \n" );
