@@ -63,6 +63,18 @@ int math( int num1, int num2, char Operation ) { //Function takes two integers a
           case '>' :
               return num1 >> num2;
               break;
+          case '&' : //bitwise AND
+              return num1 & num2;
+              break;
+          case '|' : // bitwise OR
+              return num1 | num2;
+              break;
+          case '^' : //bitwise XOR
+              return num1 ^ num2;
+              break;
+          case '~' : //inverse num1
+              return ~num1;
+              break;
           default :
              printf("Invalid operation given \n" );
              return NULL;
