@@ -78,7 +78,7 @@ int math( int num1, int num2, char Operation ) { //Function takes two integers a
               break;
           default :
              printf("Invalid operation given \n" );
-             return NULL;
+             return NULL; //Return null pointer if no matched case can be found
              break
        }
 }
