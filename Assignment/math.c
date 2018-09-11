@@ -46,7 +46,8 @@ int math( int num1, int num2, char Operation ) { //Function takes two integers a
           case '-' : //Subtraction
              return num1 - num2;
              break;
-          case '/' :
+          case '/' : //Divide
+          case '\\' : // In case the user uses
              return num1 / num2;
              break;
           case '*' : //Multiplication
