@@ -60,7 +60,7 @@ int math( int num1, int num2, char Operation ) { //Function takes two integers a
               break;
           case '<' ://bit shift left by the amount specified by 'num2'
               return num1 << num2;
-              break
+              break;
           case '>' :
               return num1 >> num2;
               break;
@@ -79,6 +79,6 @@ int math( int num1, int num2, char Operation ) { //Function takes two integers a
           default :
              printf("Invalid operation given \n" );
              return NULL; //Return null pointer if no matched case can be found
-             break
+             break;
        }
 }
